@@ -1,0 +1,51 @@
+.tab-stockinfo.tab-content-hero{
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/Investor_Relations_BG.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 416px;
+	color: #fff;
+}
+
+.container {
+	padding: 220px 0;
+}
+
+.nav-pills .nav-link {
+	background-color: #009bda;
+	color: #fff;
+	border-radius: 0;
+	padding: 42px 20px;
+	font-size: 18px;  
+	font-weight: 600;
+	font-style: inherit;
+}
+
+.nav-pills .nav-link.active {
+	background-color: #1c61b0;
+}
+
+h2 {
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 1.2em;
+}
+
+h1, h2, h3, h4, h5 {
+ 	font-family: "Utopia Std";
+}
+
+/* custom content */
+
+.demo-content{
+	padding: 15px;
+	font-size: 18px;
+	background: #dbdfe5;
+	margin-bottom: 15px;
+}
+.demo-content.bg-alt{
+	background: #abb1b8;
+}

@@ -14,10 +14,11 @@
 }
 
 .tab-stockinfo.tab-content-hero-secondary {
-	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/Investor_Relations_BG.jpg);
+	background: url(../images/About-Sleep-Time-Banner-IMG.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	text-align: center;
 }
 
 .container.tab-content-details {
@@ -82,11 +83,24 @@ button {
     font-size: 12px;
     font-weight: 600;
     text-transform: none;
-    letter-spacing: 0px;
+    letter-spacing: 1.4px;
     color: #FFFFFF;
-    background-color: var( --e-global-color-primary );
+    background-color: #009ad9;
     border-radius: 40px 40px 40px 40px;
     padding: 16px 45px 16px 45px;
+	border: none;
+}
+
+button:hover {
+	background-color: #2261ae;
+}
+
+.tab-content-hero-secondary h2 {
+	font-family: "Utopia Std", Sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.2em;
+	margin-bottom: 30px;
 }
 
 h2 {

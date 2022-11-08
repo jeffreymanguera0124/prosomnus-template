@@ -1,4 +1,4 @@
-.tab-stockinfo.tab-content-hero-main, .tab-stockinfo.tab-content-hero-secondary {
+.tab-stockinfo.tab-content-hero-main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -19,11 +19,37 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 484px;
+	color: #fff;
 }
 
-.container.tab-content-details {
+.tab-stockinfo.tab-content-hero-bottom {
+	background: url(../images/For-more-info_BG-scaled.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: left;
+	display: flex;
+	align-items: center;
+	min-height: 484px;
+	color: #fff;
+}
+
+.tab-content-hero-bottom .container {
+	max-width: 1520px;
+}
+
+.container.tab-content-section {
 	padding: 220px 0;	
 	max-width: 1250px;
+}
+
+.videos-section {
+	max-width: 1500;
+	padding: 220px 40px;
 }
 
 .tab-content-col {
@@ -59,6 +85,9 @@
 	color: #666666;
 }
 
+.video-text-wrap {
+    text-align: -webkit-center;
+}
 
 .nav-pills .nav-link {
 	background-color: #009bda;
@@ -95,13 +124,49 @@ button:hover {
 	background-color: #2261ae;
 }
 
-.tab-content-hero-secondary h2 {
+.tab-content-hero-secondary h2, .video-heading {
 	font-family: "Utopia Std", Sans-serif;
     font-size: 40px;
     font-weight: 900;
     line-height: 1.2em;
 	margin-bottom: 30px;
 }
+
+
+.video-title {
+	font-family: "Univers", Sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0.1px;
+	color: #333333;
+	line-height: 1.2em;
+	margin: 30px 0 ;
+}
+
+.video-heading  {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+video#banner-video {
+	width: 100%;
+}
+
+.banner-info {
+	max-width: 380px;
+}
+
+.banner-info span {
+	margin: 20px 0;
+	font-size: 19px;
+	letter-spacing: 0.5px;
+}
+
+.banner-info button {
+	margin-top: 25px;
+}
+
 
 h2 {
     font-family: "Utopia Std", Sans-serif;
@@ -114,14 +179,30 @@ h1, h2, h3, h4, h5 {
  	font-family: "Utopia Std";
 }
 
-/* custom content */
 
-.demo-content{
-	padding: 15px;
-	font-size: 18px;
-	background: #dbdfe5;
-	margin-bottom: 15px;
+@media (max-width: 1024px) {
+	.videos-section, .container.tab-content-section {
+		padding: 120px;
+	}
 }
-.demo-content.bg-alt{
-	background: #abb1b8;
+
+@media (max-width: 767px) {
+	.videos-section, .container.tab-content-section {
+		padding: 60px 20px;
+	}
+	.tab-content-col {
+		padding: 0 10px;
+	}
+	.nav-pills .nav-link {
+		font-size: 16px;
+		padding: 27px 5px;
+	}
+	.video-title {
+		margin-top: 15px;
+		font-size: 26px;
+		margin-bottom: 40px;
+	}
+	.tab-content-col h2, .banner-info h2, h2.video-heading, .tab-content-hero-secondary h2 {
+		font-size: 35px;
+	}
 }

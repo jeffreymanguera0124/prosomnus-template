@@ -40,6 +40,7 @@
 
 .tab-content-hero-bottom .container {
 	max-width: 1520px;
+	padding: 0 30px;
 }
 
 .container.tab-content-section {
@@ -142,6 +143,7 @@ button:hover {
 	color: #333333;
 	line-height: 1.2em;
 	margin: 30px 0 ;
+	text-align: left;
 }
 
 .video-heading  {
@@ -179,10 +181,82 @@ h1, h2, h3, h4, h5 {
  	font-family: "Utopia Std";
 }
 
+
+/* Hover item */
+.secondary-nav {
+	overflow: hidden;
+  }
+  
+  .column-item.sub-nav-item a {
+	float: none;
+	color: #fff;
+	padding: 21px 40px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: .5px;
+  }
+  
+  .dropdown-content {
+	display: flex;
+	visibility: hidden;
+	position: absolute;
+	background-color: #1c61b0be;
+	width: 100%;
+	left: 0;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	align-items: center;
+  }
+  
+  li.nav-item:hover .dropdown-content {
+	visibility: visible;
+  }
+  
+  .column-item {
+	float: left;
+	height: auto;
+	flex-basis: content;
+  }
+
+  li.nav-item {
+	float: left;
+	overflow: hidden;
+  }
+
+  .column-item.sub-nav-item a {
+	float: none;
+	color: #fff;
+	padding: 21px 40px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: .5px;
+  }
+
+  iframe {
+	max-width: 100%;
+    width: 100%;
+    margin: 0;
+    line-height: 1;
+    border: none;
+	border-radius: 10px;
+  }
+  
+  .ytp-large-play-button svg{
+    background: url(bgimagesomethpath);
+    height: value;
+    width: value;
+ }
+
 /* Mobile Responsive */
 @media (max-width: 1024px) {
 	.videos-section, .container.tab-content-section {
-		padding: 120px;
+		padding: 120px 40px;
 	}
 }
 

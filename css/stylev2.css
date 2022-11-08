@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5 {
  	font-family: "Utopia Std";
 }
 
-
+/* Mobile Responsive */
 @media (max-width: 1024px) {
 	.videos-section, .container.tab-content-section {
 		padding: 120px;

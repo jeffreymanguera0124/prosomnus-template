@@ -269,13 +269,16 @@ iframe {
 	.tab-content-col {
 		padding: 0 10px;
 	}
+	tab-content-col p {
+		font-size: 20px;
+	}
 	.nav-pills .nav-link {
 		font-size: 16px;
 		padding: 27px 5px;
 	}
 	.video-title {
 		margin-top: 15px;
-		font-size: 20px;
+		font-size: 18px;
 		margin-bottom: 40px;
 	}
 	.tab-content-col h2, h2.video-heading, .banner-info h2, .tab-content-hero-secondary h2 {

@@ -1,8 +1,4 @@
-.tab-stockinfo.tab-content-hero{
-	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/Investor_Relations_BG.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+.tab-stockinfo.tab-content-hero-main, .tab-stockinfo.tab-content-hero-secondary {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -10,28 +6,94 @@
 	color: #fff;
 }
 
-.container {
-	padding: 220px 0;
+.tab-stockinfo.tab-content-hero-main {
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/Investor_Relations_BG.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
+
+.tab-stockinfo.tab-content-hero-secondary {
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/Investor_Relations_BG.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.container.tab-content-details {
+	padding: 220px 0;	
+	max-width: 1250px;
+}
+
+.tab-content-col {
+	padding: 0 40px;
+}
+
+.tab-content-col h2 {
+	font-family: "Utopia Std";
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.2em;
+}
+
+.tab-content-col span {
+	font-family: "Utopia Std";
+	font-weight: 700;
+	font-size: 18px;
+	color: #009ad9;
+}
+
+.tab-text-wrap {
+	border: 1px solid #F0F0F0;
+	border-width: 0 0 1px 0;
+	margin: 30px 0;
+}
+
+.tab-content-col p {
+	font-size: 22px;
+	font-family: "Univers", Sans-serif;
+	line-height: 1.8em;
+	font-weight: 500;
+	margin: 25px 0;
+	color: #666666;
+}
+
 
 .nav-pills .nav-link {
 	background-color: #009bda;
 	color: #fff;
-	border-radius: 0;
+	border-radius: 0;	
 	padding: 42px 20px;
 	font-size: 18px;  
 	font-weight: 600;
 	font-style: inherit;
 }
 
+.nav-pills .nav-link:hover {
+	background-color: #1c61b0;
+}
+
 .nav-pills .nav-link.active {
 	background-color: #1c61b0;
 }
 
+button {
+	font-family: "Univers", Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background-color: var( --e-global-color-primary );
+    border-radius: 40px 40px 40px 40px;
+    padding: 16px 45px 16px 45px;
+}
+
 h2 {
-	font-size: 52px;
-	font-weight: 700;
-	line-height: 1.2em;
+    font-family: "Utopia Std", Sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.2em;
 }
 
 h1, h2, h3, h4, h5 {

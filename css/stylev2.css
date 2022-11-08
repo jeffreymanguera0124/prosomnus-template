@@ -276,7 +276,10 @@ h1, h2, h3, h4, h5 {
 		font-size: 26px;
 		margin-bottom: 40px;
 	}
-	.tab-content-col h2, .banner-info h2, h2.video-heading, .tab-content-hero-secondary h2 {
+	.tab-content-col h2, .banner-info h2, h2.video-heading, .tab-content-hero-secondary h2, .tab-content-hero-main h2{
 		font-size: 35px;
+	}
+	.tab-stockinfo.tab-content-hero-main, .tab-stockinfo.tab-content-hero-secondary, .tab-stockinfo.tab-content-hero-bottom {
+		min-height: 270px;
 	}
 }

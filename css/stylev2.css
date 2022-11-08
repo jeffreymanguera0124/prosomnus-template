@@ -275,11 +275,14 @@ iframe {
 	}
 	.video-title {
 		margin-top: 15px;
-		font-size: 26px;
+		font-size: 20px;
 		margin-bottom: 40px;
 	}
-	.tab-content-col h2, h2.video-heading, .banner-info h2, .tab-content-hero-secondary h2, .tab-content-hero-main h2{
+	.tab-content-col h2, h2.video-heading, .banner-info h2, .tab-content-hero-secondary h2 {
 		font-size: 28px;
+	}
+	.tab-content-hero-main h2 {
+		font-size: 32px;
 	}
 	.tab-stockinfo.tab-content-hero-main, .tab-stockinfo.tab-content-hero-secondary {
 		min-height: 270px;

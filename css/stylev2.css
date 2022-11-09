@@ -21,12 +21,32 @@
 	margin: 0 0 0 30px;	
 }
 
+.contact-wrap a {
+	color: #333333;
+	text-decoration: none;
+	font-weight: 400;
+}
+
 .contact-text, .icon-text {
-	font-size: 16px;
+	font-size: 14px;
 }
 
 span.icon-flag object {
 	padding-top: 6px;
+}
+
+.call-to-action {
+	background-color: #009bda;
+	min-height: 57px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span.action-text {
+	text-decoration: underline;
+	font-size: 14px;
+	color: #fff;
 }
 
 .provider-link {
@@ -109,6 +129,12 @@ button.navbar-toggler:hover {
 .tab-content-hero-bottom .container {
 	max-width: 1520px;
 	padding: 0 30px;
+}
+
+.footer-container, .social-bar-section {
+	max-width: 1700px;
+	padding: 0 30px;
+	margin: 0 auto;
 }
 
 .container.tab-content-section {

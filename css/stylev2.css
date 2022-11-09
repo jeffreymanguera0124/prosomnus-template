@@ -1,16 +1,13 @@
 .tab-stockinfo.tab-content-hero-main {
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/Investor_Relations_BG.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 416px;
 	color: #fff;
-}
-
-.tab-stockinfo.tab-content-hero-main {
-	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/Investor_Relations_BG.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
 .tab-stockinfo.tab-content-hero-secondary {
@@ -49,7 +46,7 @@
 }
 
 .videos-section {
-	max-width: 1500;
+	max-width: 1450px;
 	padding: 220px 40px;
 }
 
@@ -293,6 +290,7 @@ iframe {
 	.tab-stockinfo.tab-content-hero-bottom {
 		min-height: 330px;
 	}
+	/* highlighting the bg of tabs*/
 	.dropdown-content {
 		background-color: #1c61b0;
 	}	  

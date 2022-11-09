@@ -1,3 +1,50 @@
+/* Header */
+.navbar {
+	max-width: 1540px;
+	min-height: 96px;
+	margin: auto;
+}
+
+.provider-link {
+	font-family: "Univers", Sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: none;
+	letter-spacing: 0px;
+	color: #009ad9;
+	line-height: 1;
+	text-align: center;
+	padding: 16px 45px 16px 45px;
+	text-decoration: none;
+}
+
+button.btn:hover {
+	color: #fff;
+}
+
+.main-nav li.nav-item {
+	padding: 20px 20px;
+}
+
+.main-nav li.nav-item a {
+	color: #333333;
+	fill: #333333;
+	font-family: "Univers", Sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: .2;
+}
+
+.main-nav li.nav-item a:hover {
+	color: #009ad9;
+}
+
+button.navbar-toggler:hover {
+	background-color: #009ad9;
+}
+
+/*End Header*/
+
 .tab-stockinfo.tab-content-hero-main {
 	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/Investor_Relations_BG.jpg);
 	background-size: cover;
@@ -42,7 +89,6 @@
 
 .container.tab-content-section {
 	padding: 220px 0;	
-	max-width: 1250px;
 }
 
 .videos-section {
@@ -105,7 +151,7 @@
 	background-color: #1c61b0;
 }
 
-button {
+button, button.btn {
 	font-family: "Univers", Sans-serif;
     font-size: 12px;
     font-weight: 600;
@@ -118,7 +164,7 @@ button {
 	border: none;
 }
 
-button:hover {
+button:hover, button.btn:hover {
 	background-color: #2261ae;
 }
 
@@ -253,9 +299,44 @@ iframe {
 }
 
 /* Mobile Responsive */
+@media (max-width: 1097px) and (min-width: 992px) {
+	.main-nav li.nav-item {
+		padding: 10px 10px;
+	}
+	button.btn, .provider-link {
+	  padding: 16px 35px 16px 35px;
+	}
+}
+
 @media (max-width: 1024px) {
 	.videos-section, .container.tab-content-section {
 		padding: 120px 40px;
+	}
+}
+
+@media (max-width: 991px) {
+	.provider-link {
+	  padding: 28 20px;
+	  color: #333333;
+	  font-size: 13px;
+	}
+	button.btn {
+	  background-color: unset;
+	  color: #333333;
+	  padding: 28 20px;
+	  font-size: 13px;
+	  letter-spacing: unset;
+	}
+	button.btn:hover {
+		background-color: #fff;
+		color: #009ad9;
+	}
+	.provider-link:hover {
+		color: #009ad9;
+	}
+	button.btn:active {
+		background-color: #fff !important;
+		color: #333333 !important;
 	}
 }
 

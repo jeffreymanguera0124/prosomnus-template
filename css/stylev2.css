@@ -89,6 +89,42 @@ button.navbar-toggler:hover {
 
 /*End Header*/
 
+
+/* Footer */
+.footer-container a.text-reset {
+	color: #333333;
+	fill: #333333;
+	font-family: "Univers", Sans-serif;
+	font-size: 13px;
+	letter-spacing: .2;
+	text-decoration: none;
+}
+
+.footer-container h6 {
+	color: #2261ae;;
+	font-family: "Univers", Sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.col-md-8point5 {
+	width: 81.25%;
+}
+
+.footer-container img {
+	width: 100%;
+}
+
+.footer-container .nav-bar-brand {
+	float: left;
+}
+
+.social-bar-section {
+	background-color: #eeeeee;
+}
+
+/* End Footer */
+
 .tab-stockinfo.tab-content-hero-main {
 	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/Investor_Relations_BG.jpg);
 	background-size: cover;
@@ -131,15 +167,17 @@ button.navbar-toggler:hover {
 	padding: 0 30px;
 }
 
-.footer-container, .social-bar-section {
+.footer-container, .social-bar-container {
 	max-width: 1700px;
 	padding: 0 30px;
 	margin: 0 auto;
+	width: 100%;
 }
 
 .container.tab-content-section {
 	padding: 220px 0;	
 }
+
 
 .videos-section {
 	max-width: 1450px;

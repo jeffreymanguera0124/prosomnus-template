@@ -2,7 +2,31 @@
 .navbar {
 	max-width: 1540px;
 	min-height: 96px;
-	margin: auto;
+	margin: 0 auto;
+}
+
+.contact-container {
+	max-width: 1540px;
+    min-height: 37px;
+	margin: 0 auto;
+	padding: 0 12px;
+	width: 100%;
+}
+
+.contact-wrap, .icon-wrap {
+	align-self: center;
+}
+
+.contact-wrap {
+	margin: 0 0 0 30px;	
+}
+
+.contact-text, .icon-text {
+	font-size: 16px;
+}
+
+span.icon-flag object {
+	padding-top: 6px;
 }
 
 .provider-link {

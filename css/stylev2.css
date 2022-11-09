@@ -1,12 +1,12 @@
 /* Header */
 .navbar {
-	max-width: 1540px;
-	min-height: 96px;
+	max-width: 1700px;
+	min-height: 114px;
 	margin: 0 auto;
 }
 
 .contact-container {
-	max-width: 1540px;
+	max-width: 1700px;
     min-height: 37px;
 	margin: 0 auto;
 	padding: 0 12px;
@@ -85,6 +85,10 @@ button.btn:hover {
 
 button.navbar-toggler:hover {
 	background-color: #009ad9;
+}
+
+.main-nav a.navbar-brand img {
+	height: 47px;
 }
 
 /*End Header*/
@@ -412,12 +416,12 @@ iframe {
 }
 
 /* Mobile Responsive */
-@media (max-width: 1097px) and (min-width: 992px) {
+@media (max-width: 1153px) and (min-width: 992px) {
 	.main-nav li.nav-item {
 		padding: 10px 10px;
 	}
 	button.btn, .provider-link {
-	  padding: 16px 35px 16px 35px;
+	  padding: 16px 20px 16px 20px;
 	}
 }
 
@@ -461,7 +465,7 @@ iframe {
 }
 
 @media (max-width: 767px) {
-	.videos-section, .container.tab-content-section {
+	.videos-section, .tab-content-section {
 		padding: 60px 20px;
 	}
 	.tab-content-col {

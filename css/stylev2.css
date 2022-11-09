@@ -91,13 +91,22 @@ button.navbar-toggler:hover {
 
 
 /* Footer */
-.footer-container a.text-reset {
+.footer-container a.text-reset, .social-bar-container a.text-reset {
 	color: #333333;
 	fill: #333333;
 	font-family: "Univers", Sans-serif;
 	font-size: 13px;
 	letter-spacing: .2;
-	text-decoration: none;
+}
+
+.footer-container p:hover, .social-bar-container p:hover {
+	color: #009ad9;
+}
+
+.social-bar-container {
+	max-width: 1700px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .footer-container h6 {
@@ -113,14 +122,31 @@ button.navbar-toggler:hover {
 
 .footer-container img {
 	width: 100%;
+	height: 40px;
 }
 
-.footer-container .nav-bar-brand {
+.footer-container a.navbar-brand {
 	float: left;
 }
 
 .social-bar-section {
 	background-color: #eeeeee;
+	min-height: 110px;
+	display: flex;
+    align-items: center;
+}
+
+.social-bar-section p {
+	margin-bottom: 0;
+	align-self: center;
+}
+
+.social-bar-section .icon-flag object {
+	padding-top: 0;
+}
+
+section.footer-nav {
+	padding-bottom: 100px;
 }
 
 /* End Footer */
@@ -167,7 +193,7 @@ button.navbar-toggler:hover {
 	padding: 0 30px;
 }
 
-.footer-container, .social-bar-container {
+.footer-container {
 	max-width: 1700px;
 	padding: 0 30px;
 	margin: 0 auto;
@@ -177,7 +203,6 @@ button.navbar-toggler:hover {
 .container.tab-content-section {
 	padding: 220px 0;	
 }
-
 
 .videos-section {
 	max-width: 1450px;
@@ -470,4 +495,29 @@ iframe {
 	.dropdown-content {
 		background-color: #1c61b0;
 	}	  
+	.footer-container a.navbar-brand {
+		margin-bottom: 20px;
+	}
+	section.footer-nav {
+		padding-bottom: 0px;
+	}
+	.banner-info {
+		padding: 0;
+	}
+	.footer-container {
+		padding: 0 20px;
+	}
+	.social-bar-container {
+		padding: 20px !important;
+	}
+}
+
+@media (max-width: 536px) {
+	.social-bar-container {
+		display: inline-block !important;
+	}
+	.footer-submenu {
+		padding-bottom: 15px;
+		margin: 0 !important;
+	}
 }

@@ -319,6 +319,8 @@ iframe {
 	  padding: 28 20px;
 	  color: #333333;
 	  font-size: 13px;
+	  width: 100%;	
+	  text-align: left;
 	}
 	button.btn {
 	  background-color: unset;
@@ -326,16 +328,21 @@ iframe {
 	  padding: 28 20px;
 	  font-size: 13px;
 	  letter-spacing: unset;
+	  text-align: left;
+	  width: 100%;
+	}
+	.btn-container a {
+		width: 100%;
 	}
 	button.btn:hover {
-		background-color: #fff;
+		background-color: unset;
 		color: #009ad9;
 	}
 	.provider-link:hover {
 		color: #009ad9;
 	}
 	button.btn:active {
-		background-color: #fff !important;
+		background-color: unset;
 		color: #333333 !important;
 	}
 }
